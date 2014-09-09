@@ -1,0 +1,4 @@
+fqdn: www.example.com
+db_name: my_db_name
+db_backup_dir: /path/to/backup/dir
+repository: git@github.com:username/project.git

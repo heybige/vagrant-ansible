@@ -1,0 +1,13 @@
+---
+# This playbook is where you would define all your roles
+
+- name: apply common configuration to all nodes
+  hosts: all
+  user: vagrant
+  sudo: yes
+
+  roles:
+    - common
+    - webserver
+	- database
+	- custom_config
